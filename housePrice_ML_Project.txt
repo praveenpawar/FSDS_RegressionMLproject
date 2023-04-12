@@ -1,0 +1,295 @@
+Microsoft Windows [Version 10.0.19045.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\pvppa\Documents\ML_Project>conda create -p venv python=3.8
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 23.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\pvppa\Documents\ML_Project\venv
+
+  added / updated specs:
+    - python=3.8
+
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2023.01.10-haa95532_0 None
+  certifi            pkgs/main/win-64::certifi-2022.12.7-py38haa95532_0 None
+  libffi             pkgs/main/win-64::libffi-3.4.2-hd77b12b_6 None
+  openssl            pkgs/main/win-64::openssl-1.1.1t-h2bbff1b_0 None
+  pip                pkgs/main/win-64::pip-23.0.1-py38haa95532_0 None
+  python             pkgs/main/win-64::python-3.8.16-h6244533_3 None
+  setuptools         pkgs/main/win-64::setuptools-65.6.3-py38haa95532_0 None
+  sqlite             pkgs/main/win-64::sqlite-3.41.1-h2bbff1b_0 None
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1 None
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2 None
+  wheel              pkgs/main/win-64::wheel-0.38.4-py38haa95532_0 None
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py38haa95532_2 None
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate C:\Users\pvppa\Documents\ML_Project\venv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+C:\Users\pvppa\Documents\ML_Project>conda activate venv/
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>
+
+
+#################################################
+
+
+Create the README.md
+
+## End to End ML Project
+
+### Create a virtual environment
+
+```
+conda create -p venv python==3.8
+```
+
+### Activate the virtual environment
+
+```
+conda activate venv/
+```
+
+### Install all necessary libraries
+
+```
+pip install -r requirements.txt
+```
+
+Right click on README.md tab and click open preview
+#################################################################
+
+Create th requirements.txt
+
+pip install -r requirements.txt
+
+.e - ### For triggering setup.py
+
+and now crate the setup.py for packaging
+
+<code>
+
+after that if we run the 
+
+
+pip install -r requirements.txt
+
+
+it will create the project
+
+#################################################################
+
+C:\Users\pvppa\Documents\ML_Project>conda create -p venv python=3.8
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 23.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\pvppa\Documents\ML_Project\venv
+
+  added / updated specs:
+    - python=3.8
+
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2023.01.10-haa95532_0 None
+  certifi            pkgs/main/win-64::certifi-2022.12.7-py38haa95532_0 None
+  libffi             pkgs/main/win-64::libffi-3.4.2-hd77b12b_6 None
+  openssl            pkgs/main/win-64::openssl-1.1.1t-h2bbff1b_0 None
+  pip                pkgs/main/win-64::pip-23.0.1-py38haa95532_0 None
+  python             pkgs/main/win-64::python-3.8.16-h6244533_3 None
+  setuptools         pkgs/main/win-64::setuptools-65.6.3-py38haa95532_0 None
+  sqlite             pkgs/main/win-64::sqlite-3.41.1-h2bbff1b_0 None
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1 None
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2 None
+  wheel              pkgs/main/win-64::wheel-0.38.4-py38haa95532_0 None
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py38haa95532_2 None
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate C:\Users\pvppa\Documents\ML_Project\venv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+C:\Users\pvppa\Documents\ML_Project>conda activate venv/
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>pip install -r requirements.txt
+Collecting numpy
+  Using cached numpy-1.24.2-cp38-cp38-win_amd64.whl (14.9 MB)
+Collecting pandas
+  Using cached pandas-1.5.3-cp38-cp38-win_amd64.whl (11.0 MB)
+Collecting Flask
+  Using cached Flask-2.2.3-py3-none-any.whl (101 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.3/502.3 kB 233.3 kB/s eta 0:00:00
+Collecting python-dateutil>=2.8.1
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting Jinja2>=3.0
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting Werkzeug>=2.2.2
+  Using cached Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+Collecting importlib-metadata>=3.6.0
+  Using cached importlib_metadata-6.1.0-py3-none-any.whl (21 kB)
+Collecting itsdangerous>=2.0
+  Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting click>=8.0
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting colorama
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting zipp>=0.5
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>pip install -r requirements.txt
+Requirement already satisfied: numpy in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from -r requirements.txt (line 1)) (1.24.2)
+Requirement already satisfied: pandas in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from -r requirements.txt (line 2)) (1.5.3)
+Requirement already satisfied: Flask in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from -r requirements.txt (line 3)) (2.2.3) 
+Requirement already satisfied: pytz>=2020.1 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from pandas->-r requirements.txt (line 2)) (2023.3)
+Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from pandas->-r requirements.txt (line 2)) (2.8.2)Requirement already satisfied: importlib-metadata>=3.6.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (6.1.0)
+Requirement already satisfied: itsdangerous>=2.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (2.1.2)   
+Requirement already satisfied: Werkzeug>=2.2.2 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (2.2.3)     
+Requirement already satisfied: Jinja2>=3.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (3.1.2)
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>pip install -r requirements.txt
+Obtaining file:///C:/Users/pvppa/Documents/ML_Project (from -r requirements.txt (line 5))
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: numpy in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from -r requirements.txt (line 1)) (1.24.2)
+Requirement already satisfied: pandas in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from -r requirements.txt (line 2)) (1.5.3)
+Requirement already satisfied: Flask in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from -r requirements.txt (line 3)) (2.2.3)
+Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from pandas->-r requirements.txt (line 2)) (2.8.2)Requirement already satisfied: pytz>=2020.1 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from pandas->-r requirements.txt (line 2)) (2023.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (2.2.3)
+Requirement already satisfied: click>=8.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (8.1.3)     
+Requirement already satisfied: itsdangerous>=2.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (2.1.2)      
+Requirement already satisfied: importlib-metadata>=3.6.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (6.1.0)
+Requirement already satisfied: Jinja2>=3.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Flask->-r requirements.txt (line 3)) (3.1.2)
+Requirement already satisfied: colorama in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from click>=8.0->Flask->-r requirements.txt (line 3)) (0.4.6)
+Requirement already satisfied: zipp>=0.5 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from importlib-metadata>=3.6.0->Flask->-r requirements.txt (line 3)) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from Jinja2>=3.0->Flask->-r requirements.txt (line 3)) (2.1.2)
+Requirement already satisfied: six>=1.5 in c:\users\pvppa\documents\ml_project\venv\lib\site-packages (from python-dateutil>=2.8.1->pandas->-r requirements.txt (line 2)) (1.16.0)
+Installing collected packages: RegressorProject
+  Running setup.py develop for RegressorProject
+Successfully installed RegressorProject-0.0.1
+
+[notice] A new release of pip available: 22.2.2 -> 23.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>
+
+
+##################################################################################################
+
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>python setup.py install
+
+ignore it as of now, becaue need to write code now then will build it
+################################################################################################
+
+
+created the src folder. it is backbone of project.
+
+under it created the __init__.py.
+
+### __init__.py file is important to build the package and helping to folder to sync while importing.
+
+################################################################################################
+
+Project lifecycle:
+
+EDA -> Feature Engineering -> Model Training -> Model Deployment
+
+
+## Raw data -> Data cleaning -> Data ingestion -> Data Tranformation -> Model Training -> Model Evaluation -> Deployment
+
+All are components of lifecycle.
+
+
+###########################################################################
+
+
+echo "# FSDS_RegressionMLproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/praveenpawar/FSDS_RegressionMLproject.git
+git push -u origin main
+
+###########################################################################
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>conda env list
+# conda environments:
+#
+                      *  C:\Users\pvppa\Documents\ML_Project\venv
+                         C:\Users\pvppa\Documents\demo-pipeline\venv
+base                     C:\Users\pvppa\anaconda3
+image_scrapper           C:\Users\pvppa\anaconda3\envs\image_scrapper
+                         c:\Users\pvppa\Documents\demo-pipeline\venv
+
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>
+
+
+###########################################################################
+
+https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository/1139797#1139797
+
+git rm -r --cached venv
+git add .
+git commit -m ".gitignore is now working"
+git push -u origin main
+
+###############################################################################
+
+
