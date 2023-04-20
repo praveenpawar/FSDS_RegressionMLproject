@@ -307,3 +307,19 @@ ModuleNotFoundError: No module named 'src'
 
 
 #############################################################################
+
+Steps:
+
+1. Data ingestion:
+  a. input: Dataset path
+  b. output: Train data and test data
+
+2. Data Transformation:
+  a. input: Train data path and test data path
+  b. output: Transformed data and Pickle file 
+
+  At the data tranformaton stage we do feature engineering in which following things are cover:
+  a. Handling missing value
+  b. Feature scalling 
+  c. Handling categorical data
+  d. Handling numerical data
