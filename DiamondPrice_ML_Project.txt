@@ -305,6 +305,19 @@ ModuleNotFoundError: No module named 'src'
 
 (C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>python -m src.components.data_ingestion
 
+###################################################################################################
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>python -m src.pipeline.training_pipeline
+{'LinearRegression': 0.9362906819996047, 'Lasso': 0.9362869814082755, 'Ridge': 0.9362900967491631, 'Elasticnet': 0.8544967219374031}
+
+====================================================================================
+
+Best Model Found , Model Name : LinearRegression , R2 Score : 0.9362906819996047
+
+====================================================================================
+
+
+(C:\Users\pvppa\Documents\ML_Project\venv) C:\Users\pvppa\Documents\ML_Project>
 
 #############################################################################
 
